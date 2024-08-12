@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Coastie Jobs</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -73,7 +73,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
+            <h2>Featured Jobs</h2>
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
@@ -92,7 +92,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     {
       recentPosts.length > 0 && (
         <section id="recent-posts">
-          <h2>Recent Posts</h2>
+          <h2>Recent Jobs</h2>
           <ul>
             {recentPosts.map(
               ({ data, slug }, index) =>
