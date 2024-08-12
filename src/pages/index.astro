@@ -23,38 +23,30 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Coastie Jobs</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-        <span class="sr-only">RSS Feed</span>
-      </a>
+      <h1>Find Local Jobs on the Coast</h1>
+      
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
+        Discover job openings right in your community, reducing your commute and enhancing work-life balance. Our platform provides you with local job listings, helping you secure the perfect position close to home. Save time on travel and focus more on what truly matters.      </p>
       <p>
-        Read the blog posts or check
+        <br>
+        <br>
+        Looking for work?
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="https://airtable.com/appJDpBBe13bPcO6p/shrkozIHN2DjDCMfK"
         >
           View All Jobs Here
-        </LinkButton> for more info.
+        </LinkButton> 
+      </p>
+      <p>
+       Need to find workers?
+        <LinkButton
+          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+          href="https://airtable.com/appJDpBBe13bPcO6p/pagBCVSGI0ATjpYmc/form"
+        >
+          Click Here to post a Job Listing
+        </LinkButton>
       </p>
       {
         // only display if at least one social link is enabled
