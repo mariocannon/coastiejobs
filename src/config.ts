@@ -2,9 +2,9 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
+  author: "Mario Cannon",
   profile: "https://satnaing.dev/",
-  desc: "Job Listings for people living in the Hibiscus.",
+  desc: "Job Listings for people living in the Hibiscus Coast.",
   title: "Coastie Jobs",
   ogImage: "coastielogo.svg",
   lightAndDarkMode: true,
@@ -34,13 +34,13 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://facebook.com",
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://instagram.com",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
