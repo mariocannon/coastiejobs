@@ -3,34 +3,34 @@ layout: ../layouts/AboutLayout.astro
 title: "About Coastie Jobs"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+# Welcome to Coastie Jobs! 
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+We're more than just a job board; we're a community. Born out of a desire to connect people with opportunities right here on the coast, Coastie Jobs is your go-to place for finding and listing jobs that keep our coastal spirit alive and thriving.
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+We know how special our community is, and we believe that everyone should have access to opportunities that allow them to grow and contribute locally. That's why Coastie Jobs is completely free—whether you're looking for your next adventure or need a helping hand for your business, we're here to make those connections happen.
 
-## Tech Stack
+At Coastie Jobs, we're all about simplicity and community. Posting a job or finding your dream role is as easy as a day at the beach. No fees, no fuss—just opportunities that keep our coastal community strong and vibrant.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+So dive in, explore the possibilities, and let's build a brighter future together!
 
-## Features
+## Why Coastie Jobs?
 
-Here are certain features of this site.
+### Free for All:
+We believe in supporting our community, which is why our platform is free for both job seekers and employers.
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+### Community-Focused: 
+Our jobs are local, helping to strengthen the economy and create opportunities within our coastal towns.
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+### Easy to Use:
+Whether you're posting a job or searching for one, our user-friendly platform makes the process a breeze.
+
+Thank you for being a part of Coastie Jobs. Together, we can create a thriving community, one job at a time!
+
+## Contact us
+Click here to fill out a from to get in contact with us
+
+
+
+
+
