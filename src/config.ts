@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "Sat Naing",
   profile: "https://satnaing.dev/",
-  desc: "Job Listings for people living in the Hibiscus Coast.",
+  desc: "Job Listings for people living in the Hibiscus.",
   title: "Coastie Jobs",
   ogImage: "coastielogo.svg",
   lightAndDarkMode: true,
@@ -21,8 +21,8 @@ export const LOCALE = {
 export const LOGO_IMAGE = {
   enable: true,
   svg: true,
-  width: 20%,
-  height: 20%,
+  width: 100,
+  height: 46,
 };
 
 export const SOCIALS: SocialObjects = [
