@@ -1,17 +1,15 @@
 ---
 title: Pharmacist - Millwater
 author: Coastie
-pubDatetime: 2022-06-06T04:06:31Z
+pubDatetime: 2024-08-06
 slug: Pharmacist - Millwater
 featured: true
 draft: false
 tags:
-  - TypeScript
-  - Astro
+  - Pharmacist
+  - Millwater
 description:
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel
-  fringilla est
+  Are you a dynamic and dedicated NZ registered pharmacist looking for a fulfilling permanent role? Look no further!
 ---
 
 
