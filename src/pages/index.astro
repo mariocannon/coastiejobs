@@ -20,8 +20,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
 <Layout>
-<script defer data-domain="coastiejob.com" src="https://plausible.io/js/script.js"></script>
-
   <Header />
   <main id="main-content">
     <section id="hero">
@@ -33,7 +31,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <p>
         <br>
         <br>
-       <!--  Looking for work?<br>
+       Looking for work?<br>
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="https://airtable.com/appJDpBBe13bPcO6p/shrkozIHN2DjDCMfK"
@@ -51,7 +49,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           Click Here to post a Job Listing
         </LinkButton>
       </p>
-    -->
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
