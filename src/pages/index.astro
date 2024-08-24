@@ -31,7 +31,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <p>
         <br>
         <br>
-        Looking for work?<br>
+       <!--  Looking for work?<br>
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="https://airtable.com/appJDpBBe13bPcO6p/shrkozIHN2DjDCMfK"
@@ -49,6 +49,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           Click Here to post a Job Listing
         </LinkButton>
       </p>
+    -->
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
@@ -59,6 +60,14 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         )
       }
     </section>
+
+    <div id="loading"></div>
+    <div class="view-container"></div>
+    <div class="modal" id="modal"></div>
+    <script>
+    fetch('https://dash.basefront.app/api/1.1/obj/view/1724458881665x973797109272412200') .then(response => response.json()) .then(data => { if (data.response && data.response.compiledjs) { const compiledjs = data.response.compiledjs; const scriptElement = document.createElement('script'); scriptElement.textContent = compiledjs; document.body.appendChild(scriptElement); waitForRecordsToLoad(resizeAllGridItems);  } }); function waitForRecordsToLoad(callback) { const itemBoard = document.getElementById('item-board'); if (itemBoard.childElementCount > 0) { callback(); } else { setTimeout(() => { waitForRecordsToLoad(callback); }, 100); } }
+    </script>
+
 
     <Hr />
 
